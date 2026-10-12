@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HNFAk Flortio</string>
+
+    <!-- Ortak -->
+    <string name="back">Geri</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="show_password">Şifreyi göster</string>
+    <string name="hide_password">Şifreyi gizle</string>
+    <string name="soon">Yakında</string>
+
+    <!-- Açılış -->
+    <string name="welcome_tagline">Anlamlı tanışmalar için şık bir başlangıç.</string>
+    <string name="welcome_login">Giriş yap</string>
+    <string name="welcome_register">Hesap oluştur</string>
+    <string name="welcome_preview">Tasarımı önizle (hesapsız)</string>
+    <string name="welcome_not_configured">Sunucu bağlantısı henüz kurulmadı. Giriş, kayıt ve şifre sıfırlama bu sürümde çalışmaz; uygulama yalnızca arayüz önizlemesidir.</string>
+    <string name="welcome_age_note">Flortio yalnızca 18 yaş ve üzeri içindir.</string>
+
+    <!-- Giriş -->
+    <string name="login_title">Tekrar hoş geldin</string>
+    <string name="login_subtitle">Hesabına giriş yap.</string>
+    <string name="field_email">E-posta</string>
+    <string name="field_password">Şifre</string>
+    <string name="field_password_confirm">Şifre tekrarı</string>
+    <string name="login_button">Giriş yap</string>
+    <string name="login_forgot">Şifreni mi unuttun?</string>
+    <string name="login_no_account">Hesabın yok mu?</string>
+    <string name="login_go_register">Kayıt ol</string>
+
+    <!-- Kayıt -->
+    <string name="register_title">Hesap oluştur</string>
+    <string name="register_subtitle">Birkaç adımda başla.</string>
+    <string name="register_password_hint">En az 8 karakter; en az bir harf ve bir rakam içermeli.</string>
+    <string name="register_age_confirm">18 yaşını doldurduğumu onaylıyorum.</string>
+    <string name="register_button">Kayıt ol</string>
+    <string name="register_have_account">Zaten hesabın var mı?</string>
+    <string name="register_go_login">Giriş yap</string>
+
+    <!-- Şifre sıfırlama -->
+    <string name="forgot_title">Şifreni sıfırla</string>
+    <string name="forgot_subtitle">E-posta adresini gir; hesabın varsa sıfırlama bağlantısı gönderelim.</string>
+    <string name="forgot_button">Sıfırlama bağlantısı gönder</string>
+    <string name="forgot_success">Bu e-posta adresiyle bir hesap varsa sıfırlama bağlantısı gönderildi.</string>
+    <string name="forgot_back_to_login">Girişe dön</string>
+
+    <!-- Alan hataları -->
+    <string name="err_email_empty">E-posta adresi gerekli.</string>
+    <string name="err_email_invalid">Geçerli bir e-posta adresi gir.</string>
+    <string name="err_password_empty">Şifre gerekli.</string>
+    <string name="err_password_short">Şifre en az 8 karakter olmalı.</string>
+    <string name="err_password_weak">Şifre en az bir harf ve bir rakam içermeli.</string>
+    <string name="err_confirm_empty">Şifreni tekrar gir.</string>
+    <string name="err_confirm_mismatch">Şifreler eşleşmiyor.</string>
+    <string name="err_not_confirmed">Devam etmek için bunu onaylaman gerekiyor.</string>
+    <string name="err_name_empty">Görünen ad gerekli.</string>
+    <string name="err_name_length">Ad 2 ile 30 karakter arasında olmalı.</string>
+    <string name="err_bio_long">Hakkında alanı en fazla 300 karakter olabilir.</string>
+    <string name="err_city_long">Şehir en fazla 40 karakter olabilir.</string>
+    <string name="err_birth_empty">Doğum yılı gerekli.</string>
+    <string name="err_birth_invalid">Geçerli bir doğum yılı gir.</string>
+    <string name="err_birth_underage">Flortio\'yu kullanmak için en az 18 yaşında olmalısın.</string>
+
+    <!-- İşlem hataları -->
+    <string name="error_not_configured">Sunucu bağlantısı henüz kurulmadı. Bu özellik şu an kullanılamıyor; hiçbir veri gönderilmedi veya kaydedilmedi.</string>
+    <string name="error_invalid_credentials">E-posta veya şifre hatalı.</string>
+    <string name="error_email_in_use">Bu e-posta adresiyle zaten bir hesap var.</string>
+    <string name="error_network">Bağlantı sorunu. İnternetini kontrol edip tekrar dene.</string>
+    <string name="error_not_signed_in">Bu işlem için giriş yapmış olmalısın.</string>
+    <string name="error_unknown">Beklenmeyen bir hata oluştu. Lütfen tekrar dene.</string>
+
+    <!-- Sekmeler -->
+    <string name="tab_discover">Keşfet</string>
+    <string name="tab_messages">Mesajlar</string>
+    <string name="tab_profile">Profil</string>
+
+    <!-- Keşfet -->
+    <string name="discover_empty_title">Şu an gösterilecek profil yok</string>
+    <string name="discover_empty_body">Yeni profiller hazır olduğunda burada görünecek.</string>
+
+    <!-- Mesajlar -->
+    <string name="messages_empty_title">Henüz sohbetin yok</string>
+    <string name="messages_empty_body">Sohbetlerin başladığında burada listelenecek.</string>
+
+    <!-- Profil -->
+    <string name="profile_signed_out_title">Oturum açık değil</string>
+    <string name="profile_signed_out_body">Profilini görmek ve düzenlemek için giriş yapmalısın.</string>
+    <string name="profile_name_missing">Adını ekle</string>
+    <string name="profile_age_format">%1$d yaş</string>
+    <string name="profile_incomplete_body">Görünen adını, şehrini ve kısa bir tanıtım yazını ekleyerek profilini tamamla.</string>
+    <string name="profile_edit">Profili düzenle</string>
+    <string name="profile_settings">Ayarlar</string>
+
+    <!-- Profil düzenleme -->
+    <string name="edit_title">Profili düzenle</string>
+    <string name="edit_draft_note">Bu ekran bir taslaktır. Sunucu bağlantısı kurulana kadar değişiklikler kaydedilemez.</string>
+    <string name="edit_photo_note">Fotoğraf ekleme sonraki aşamada eklenecek.</string>
+    <string name="edit_name_label">Görünen ad</string>
+    <string name="edit_birth_label">Doğum yılı</string>
+    <string name="edit_city_label">Şehir</string>
+    <string name="edit_bio_label">Hakkında</string>
+    <string name="edit_bio_counter">%1$d/300</string>
+    <string name="edit_save">Kaydet</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_section_account">Hesap</string>
+    <string name="settings_section_app">Uygulama</string>
+    <string name="settings_privacy">Gizlilik</string>
+    <string name="settings_privacy_sub">Görünürlük ve veri tercihleri</string>
+    <string name="settings_blocked">Engellenenler</string>
+    <string name="settings_blocked_sub">Engellediğin kişileri yönet</string>
+    <string name="settings_delete">Hesabı sil</string>
+    <string name="settings_delete_sub">Hesabını ve verilerini kalıcı olarak sil</string>
+    <string name="settings_logout">Çıkış yap</string>
+    <string name="settings_logout_sub_signed_out">Şu an oturum açık değil</string>
+    <string name="settings_version">Sürüm</string>
+    <string name="settings_backend">Sunucu bağlantısı</string>
+    <string name="settings_backend_missing">Kurulmadı</string>
+    <string name="settings_backend_ready">Hazır</string>
+
+    <!-- Gizlilik -->
+    <string name="privacy_title">Gizlilik</string>
+    <string name="privacy_banner">Gizlilik tercihleri, sunucu bağlantısı kurulduğunda burada yönetilebilecek.</string>
+    <string name="privacy_data_title">Verilerin</string>
+    <string name="privacy_data_body">Bu sürüm internet erişimi istemez ve kişisel verilerini cihazın dışına göndermez.</string>
+    <string name="privacy_planned_section">Planlanan tercihler</string>
+    <string name="privacy_visibility">Profil görünürlüğü</string>
+    <string name="privacy_location">Konum paylaşımı</string>
+    <string name="privacy_online">Çevrimiçi durumu</string>
+    <string name="privacy_export">Verilerimi indir</string>
+
+    <!-- Engellenenler -->
+    <string name="blocked_title">Engellenenler</string>
+    <string name="blocked_empty_title">Engellediğin kimse yok</string>
+    <string name="blocked_empty_body">Engellediğin kişiler burada listelenecek.</string>
+    <string name="blocked_unblock">Engeli kaldır</string>
+
+    <!-- Hesap silme -->
+    <string name="delete_title">Hesabı sil</string>
+    <string name="delete_warning_title">Bu işlem geri alınamaz</string>
+    <string name="delete_warning_body">Hesabın ve profil verilerin kalıcı olarak silinir. Devam etmeden önce şifreni onaylaman gerekir.</string>
+    <string name="delete_confirm_check">Hesabımı kalıcı olarak silmek istediğimi anlıyorum.</string>
+    <string name="delete_button">Hesabı kalıcı olarak sil</string>
+</resources>
